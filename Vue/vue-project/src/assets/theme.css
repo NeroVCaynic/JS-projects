@@ -1,0 +1,46 @@
+:root {
+    --text: #ffffff;
+    --bg: #2A2A2A;
+    --bg-alt: #1D1D1D;
+    --bg-hover: #363636;
+    --button-style: #263238;
+    --button-hover: #37474F;
+    --button-Altstyle: #161C1F;
+    --button-Althover: #1D2427;
+    --text-light: #000000;
+    --bg-light: #E0E0E0;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+.nav-bar {
+    background-color: var(--bg-alt);
+}
+
+div.nav-hover-item > a, svg {
+    margin-left: 10px;
+}
+
+.nav-hover-item:hover {
+    background-color: var(--bg-hover);
+    border-radius: 5px;
+}
+
+.button-style {
+    background-color: var(--button-style);
+}
+
+.button-style:hover {
+    background-color: var(--button-hover);
+}
+
+.button-Alt {
+    background-color: var(--button-Altstyle);
+}
+
+.button-Alt:hover {
+    background-color: var(--button-Althover);
+}
